@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <main>
+        <p>Welcome to your mobile-first React app!</p>
+
+        <p>This is a simple example of a React application.</p>
+
+        <p>Feel free to explore and modify the code.</p>
+
+        <p>Enjoy building with React!</p>
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
