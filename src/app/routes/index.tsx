@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Routes as RouterRoutes, Route } from "react-router-dom"
-import { Main } from "../pages/MainPage"
-import { Dashboard } from "../pages/Dashboard";
+import { Main } from "../pages/tsx/MainPage"
+import { Dashboard } from "../pages/tsx/Dashboard";
 
 export const Routes = () => {
     return (

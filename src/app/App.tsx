@@ -6,11 +6,9 @@ const App = () => {
   return (
     <div>
       <Header />
-
       <main>
         <Routes />
       </main>
-
       <Footer />
     </div>
   );
