@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>Mobile-First React App</h1>
+      <h1>Mobile-First App</h1>
     </header>
   );
 };
