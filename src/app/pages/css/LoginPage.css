@@ -1,9 +1,9 @@
-.dashboard-container {
+.login-container {
   text-align: center;
   padding: 2rem;
 }
 
-.dashboard-button {
+.login-button {
   background-color: #28a745;
   color: white;
   border: none;
@@ -15,6 +15,6 @@
   margin-top: 1.5rem;
 }
 
-.dashboard-button:hover {
+.login-button:hover {
   background-color: #1e7e34;
 }
