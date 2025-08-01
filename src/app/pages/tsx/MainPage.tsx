@@ -9,7 +9,7 @@ export const Main = () => {
       <h1>Main</h1>
       <p>This is the main page.</p>
 
-      <button className="main-button" onClick={() => navigate("/dashboard")}>Ir para o dashboard</button>
+      <button className="main-button" onClick={() => navigate("/login")}>Ir para o login</button>
     </div>
   );
 } 
